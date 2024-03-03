@@ -404,11 +404,11 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:orientation="vertical"
-            android:padding="15sp">
+            android:padding="15dp">
 
             <RelativeLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -440,7 +440,6 @@
             </RelativeLayout>
 
         </LinearLayout>
-
 
         </LinearLayout>
     </ScrollView>
