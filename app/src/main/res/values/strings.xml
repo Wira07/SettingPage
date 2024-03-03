@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SettingPage</string>
+    <string name="settings">Settings</string>
+    <string name="wira">Wira Sukma Saputra</string>
+    <string name="nomor">0812 1919 5308</string>
+    <string name="view">View Profil</string>
+    <string name="text">Night Mode</string>
+    <string name="notif">Notifikations</string>
+    <string name="pivate">Private Account</string>
+    <string name="Security">Security and Privacy</string>
+    <string name="size">Text Size</string>
+    <string name="languages">languages</string>
+</resources>
