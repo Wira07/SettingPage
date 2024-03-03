@@ -349,7 +349,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="@string/l"
+                    android:text="@string/about_us"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:layout_marginStart="20dp"/>
