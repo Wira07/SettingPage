@@ -310,14 +310,14 @@
                     android:layout_height="40dp"
                     android:padding="12dp"
                     android:src="@drawable/material_symbolslanguage"
-                    android:background="@drawable/rounded_back_notifications"/>
+                    android:background="@drawable/send"/>
 
                 <TextView
                     android:layout_toEndOf="@+id/nightmode10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="@string/languages"
+                    android:text="@string/send"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:layout_marginStart="20dp"/>
@@ -349,7 +349,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="@string/languages"
+                    android:text="@string/l"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:layout_marginStart="20dp"/>
@@ -374,14 +374,14 @@
                     android:layout_height="40dp"
                     android:padding="12dp"
                     android:src="@drawable/vector"
-                    android:background="@drawable/rounded_back_notifications"/>
+                    android:background="@drawable/faqs"/>
 
                 <TextView
                     android:layout_toEndOf="@+id/nightmode12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="@string/languages"
+                    android:text="@string/faqs"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:layout_marginStart="20dp"/>
@@ -395,9 +395,52 @@
 
             </RelativeLayout>
 
+        </LinearLayout>
 
+        <LinearLayout
+            android:background="@drawable/rounded_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/nightmode14"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="12dp"
+                    android:src="@drawable/vector"
+                    android:background="@drawable/faqs"/>
+
+                <TextView
+                    android:layout_toEndOf="@+id/nightmode14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/logout"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/baseline_navigate_next_24"/>
+
+            </RelativeLayout>
 
         </LinearLayout>
+
 
         </LinearLayout>
     </ScrollView>

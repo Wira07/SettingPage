@@ -10,4 +10,8 @@
     <string name="Security">Security and Privacy</string>
     <string name="size">Text Size</string>
     <string name="languages">languages</string>
+    <string name="send">Send us a message</string>
+    <string name="about_us">About us</string>
+    <string name="faqs">Faqs</string>
+    <string name="logout">Logout</string>
 </resources>

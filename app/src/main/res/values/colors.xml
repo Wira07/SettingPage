@@ -8,5 +8,6 @@
     <color name="notifications">#4700C5</color>
     <color name="security">#949292</color>
     <color name="private_account">#FFEB3B</color>
+    <color name="blue">#302B38</color>
 
 </resources>
